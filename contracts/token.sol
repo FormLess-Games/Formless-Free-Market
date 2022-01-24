@@ -3,7 +3,7 @@ pragma solidity ^0.4.16;
 contract TokenERC20 {
     string public name;
     string public symbol;
-    uint8 public decimals = 18;  // 18 是建议的默认值
+    uint8 public decimals = 18;  
     uint256 public totalSupply;
 
     mapping (address => uint256) public balanceOf;  //
