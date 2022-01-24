@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "WyvernAtomicizer",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/WyvernAtomicizer.sol": "WyvernAtomicizer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/WyvernAtomicizer.sol": {
+			"keccak256": "0xf72abd29889b93843ddb609debe4cbd0b0dd1c2a43bb2e9cd589589571458f7c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a0f2a9a50da046903635e09b205456f4cc3e4541e56c0e0033191056fceb40ec",
+				"dweb:/ipfs/QmP7kzAkmSqb3ae34btQqRwrbponFXGvR9dfWbjewGb8o6"
+			]
+		}
+	},
+	"version": 1
+}
