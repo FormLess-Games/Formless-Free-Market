@@ -32,4 +32,5 @@ contract WyvernExchange is Exchange {
         exchangeToken = tokenAddress;
         protocolFeeRecipient = protocolFeeAddress;
     }
+
 }

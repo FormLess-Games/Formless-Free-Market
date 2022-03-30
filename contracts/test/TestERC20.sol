@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 /*
 
-  << TestERC20 >>
+  << Test Token (for use with the Test DAO) >>
 
 */
 
@@ -9,11 +9,17 @@ pragma solidity 0.8.4;
 
 import "../lib/token/ERC20/ERC20.sol";
 
-contract TestERC20 is ERC20("test", "TST") {
+
+/**
+  * @title TestToken
+  * @author Project Wyvern Developers
+  */
+contract TestToken is ERC20("test", "TST") {
 
     /**
      */
     constructor () public {
+      _mint(msg.sender, 1000000000000000);
     }
 
     /**
@@ -23,4 +29,9 @@ contract TestERC20 is ERC20("test", "TST") {
         return true;
     }
 
+    function decimals() public view virtual override returns (uint8) {
+        return 6;
+    }
+
 }
+
